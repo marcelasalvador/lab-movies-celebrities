@@ -1,0 +1,19 @@
+<h2>Movies</h2>
+
+{{!-- {{#each movies}}
+  <div>{{title}}</div>
+  <div>{{this.genre}}</div>
+  <div>{{this.plot}}</div>
+  <div>{{this.cast}}</div>
+  <br/>
+{{/each}} --}}
+
+{{#each movies}}
+  <div>{{title}}</div>
+  {{!-- <div>{{this.genre}}</div>
+  <div>{{this.plot}}</div>
+  {{#each this.cast}}
+    <div>{{name}}</div>
+  {{/each}} --}}
+  <br/>
+{{/each}}
